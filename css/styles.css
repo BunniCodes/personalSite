@@ -1,0 +1,142 @@
+body {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  color:  #40514e;
+
+  font-family: monospace;
+}
+#pro {
+  text-decoration: underline;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 4rem;
+  color: #66bfbf;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 1.2rem;
+  color: #11999e;
+}
+a {
+  color: #117275;
+}
+
+.bioPTag {
+  font-size: 2rem;
+  margin: 20px auto 0 auto;
+  color: #66bfbf;
+  font-weight: normal;
+}
+.topContainer {
+  position: relative;
+  padding-top: 100px;
+  background-color: rgb(227, 247, 255);
+}
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottomCloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.profileDesc{
+  font-size: 1.3rem;
+  margin: 0 20% 0 20%;
+}
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 150px auto 200px auto;
+  
+}
+p {
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+.imgDraw {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.imgMusic {
+  margin-top: 5%;
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.imgProfile{
+  width:20%;
+}
+
+hr{
+  margin-bottom: 80px;
+  width: 5%;
+  border: 5px solid gray;
+  border-style: dotted none none none;
+  border-width: 9px;
+}
+.contact-me{
+  width: 50%;
+  margin: 0 auto 80px auto;
+
+}
+.bottom-container{
+  padding: 50px;
+  background-color: #66BFBF;
+}
+a{
+  text-decoration: none;
+  padding: 3px 10px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyRightText{
+  color: white;
+  font-size: 0.75rem;
+  width: 20%;
+  margin: 10px auto 0 auto ;
+}
+.contactDesc{
+  width: 60%;
+  margin: 50px auto ;
+}
+a.btn {
+  display: inline-block;
+  background-position: center;
+  transition: background 0.8s;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #66bfbf;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+.btn:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.btn:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
